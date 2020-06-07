@@ -2,6 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //Create a react component
+//We cannot pass the object to display in Javascript
 const App = function () {
   const buttonText = 'Click Me!';
   return (
