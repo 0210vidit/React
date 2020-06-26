@@ -31,6 +31,10 @@ const App = () => {
           img={faker.image.avatar()}
         />
       </ApprovalCard>
+      <ApprovalCard>
+        <h4> Are you Sure?</h4>
+        <p>This is not secure!</p>
+      </ApprovalCard>
     </div>
   );
 };
