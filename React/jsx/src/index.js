@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const App = () => {
-  return <div>Hi There!</div>;
+  const buttonText = 'Click Me!';
+
+  return <div>{buttonText}</div>;
 };
 
 ReactDOM.render(<App />, document.getElementById('root'));
